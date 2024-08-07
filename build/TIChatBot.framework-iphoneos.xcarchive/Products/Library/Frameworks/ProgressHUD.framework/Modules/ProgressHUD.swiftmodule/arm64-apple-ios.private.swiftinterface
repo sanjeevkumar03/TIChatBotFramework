@@ -1,0 +1,168 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProgressHUD
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import ProgressHUD
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ProgressHUD : UIKit.UIView {
+  @objc deinit
+}
+public enum AnimationType : Swift.CaseIterable {
+  case none
+  case activityIndicator
+  case ballVerticalBounce
+  case barSweepToggle
+  case circleArcDotSpin
+  case circleBarSpinFade
+  case circleDotSpinFade
+  case circlePulseMultiple
+  case circlePulseSingle
+  case circleRippleMultiple
+  case circleRippleSingle
+  case circleRotateChase
+  case circleStrokeSpin
+  case dualDotSidestep
+  case horizontalBarScaling
+  case horizontalDotScaling
+  case pacmanProgress
+  case quintupleDotDance
+  case semiRingRotation
+  case sfSymbolBounce
+  case squareCircuitSnake
+  case triangleDotShift
+  public static func == (a: ProgressHUD.AnimationType, b: ProgressHUD.AnimationType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [ProgressHUD.AnimationType]
+  public static var allCases: [ProgressHUD.AnimationType] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LiveIcon {
+  case succeed
+  case failed
+  case added
+  public static func == (a: ProgressHUD.LiveIcon, b: ProgressHUD.LiveIcon) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class var colorBanner: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorBannerTitle: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorBannerMessage: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var fontBannerTitle: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var fontBannerMessage: UIKit.UIFont {
+    get
+    set
+  }
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class var window: UIKit.UIWindow {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var mediaSize: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var marginSize: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var animationType: ProgressHUD.AnimationType {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var animationSymbol: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorBackground: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorHUD: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorStatus: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorProgress: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorAnimation: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var fontStatus: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var imageSuccess: UIKit.UIImage {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var imageError: UIKit.UIImage {
+    get
+    set
+  }
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func dismiss()
+  @_Concurrency.MainActor(unsafe) public class func remove()
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func progress(_ value: CoreFoundation.CGFloat, interaction: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public class func progress(_ text: Swift.String?, _ value: CoreFoundation.CGFloat, interaction: Swift.Bool = false)
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func liveIcon(_ text: Swift.String? = nil, icon: ProgressHUD.LiveIcon, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func succeed(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func failed(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func failed(_ error: (any Swift.Error)?, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func added(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func image(_ text: Swift.String? = nil, image: UIKit.UIImage?, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func symbol(_ text: Swift.String? = nil, name: Swift.String, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func success(_ text: Swift.String? = nil, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func error(_ text: Swift.String? = nil, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func error(_ error: (any Swift.Error)?, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func animate(_ text: Swift.String? = nil, interaction: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public class func animate(_ text: Swift.String? = nil, _ type: ProgressHUD.AnimationType, interaction: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public class func animate(_ text: Swift.String? = nil, symbol: Swift.String, interaction: Swift.Bool = true)
+}
+extension ProgressHUD.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func banner(_ title: Swift.String?, _ message: Swift.String?, delay: Foundation.TimeInterval = 3.0)
+  @_Concurrency.MainActor(unsafe) public class func bannerHide()
+}
+extension ProgressHUD.AnimationType : Swift.Equatable {}
+extension ProgressHUD.AnimationType : Swift.Hashable {}
+extension ProgressHUD.LiveIcon : Swift.Equatable {}
+extension ProgressHUD.LiveIcon : Swift.Hashable {}

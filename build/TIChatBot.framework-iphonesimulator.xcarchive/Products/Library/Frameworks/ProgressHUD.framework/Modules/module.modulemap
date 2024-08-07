@@ -1,0 +1,11 @@
+framework module ProgressHUD {
+  umbrella header "ProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ProgressHUD.Swift {
+  header "ProgressHUD-Swift.h"
+  requires objc
+}

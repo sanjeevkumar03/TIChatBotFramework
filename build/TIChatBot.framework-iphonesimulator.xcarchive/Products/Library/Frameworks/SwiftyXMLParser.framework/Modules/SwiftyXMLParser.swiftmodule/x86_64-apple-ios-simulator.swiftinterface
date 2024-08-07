@@ -1,0 +1,123 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftyXMLParser
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import SwiftyXMLParser
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension SwiftyXMLParser.XML {
+  @dynamicMemberLookup public enum Accessor : Swift.CustomStringConvertible, Swift.Sequence {
+    case singleElement(SwiftyXMLParser.XML.Element)
+    case sequence([SwiftyXMLParser.XML.Element])
+    case failure(any Swift.Error)
+    public init(_ element: SwiftyXMLParser.XML.Element)
+    public init(_ sequence: [SwiftyXMLParser.XML.Element])
+    public init(_ error: any Swift.Error)
+    public subscript(dynamicMember member: Swift.String) -> SwiftyXMLParser.XML.Accessor {
+      get
+    }
+    public subscript(path: Swift.Array<any SwiftyXMLParser.XMLSubscriptType>) -> SwiftyXMLParser.XML.Accessor {
+      get
+    }
+    public subscript(path: any SwiftyXMLParser.XMLSubscriptType...) -> SwiftyXMLParser.XML.Accessor {
+      get
+    }
+    public var name: Swift.String? {
+      get
+    }
+    public var text: Swift.String? {
+      get
+      set
+    }
+    public var bool: Swift.Bool? {
+      get
+    }
+    public var url: Foundation.URL? {
+      get
+    }
+    public var int: Swift.Int? {
+      get
+    }
+    public var double: Swift.Double? {
+      get
+    }
+    public var attributes: [Swift.String : Swift.String] {
+      get
+      set
+    }
+    public var all: [SwiftyXMLParser.XML.Element]? {
+      get
+    }
+    public var names: [Swift.String]? {
+      get
+    }
+    public var error: (any Swift.Error)? {
+      get
+    }
+    public var element: SwiftyXMLParser.XML.Element? {
+      get
+    }
+    public var last: SwiftyXMLParser.XML.Accessor {
+      get
+    }
+    public var first: SwiftyXMLParser.XML.Accessor {
+      get
+    }
+    public func map<T>(_ transform: (SwiftyXMLParser.XML.Accessor) -> T) -> [T]
+    @available(*, renamed: "flatMap")
+    public func mapWithSqueezeNil<T>(_ transform: (SwiftyXMLParser.XML.Accessor) -> T?) -> [T]
+    public func append(_ newElement: SwiftyXMLParser.XML.Element)
+    public func makeIterator() -> Swift.AnyIterator<SwiftyXMLParser.XML.Accessor>
+    public var description: Swift.String {
+      get
+    }
+    public typealias Element = SwiftyXMLParser.XML.Accessor
+    public typealias Iterator = Swift.AnyIterator<SwiftyXMLParser.XML.Accessor>
+  }
+}
+extension SwiftyXMLParser.XML {
+  public class Converter {
+    public init(_ accessor: SwiftyXMLParser.XML.Accessor)
+    public func makeDocument(withDeclaration: Swift.Bool = true) throws -> Swift.String
+    @objc deinit
+  }
+}
+extension SwiftyXMLParser.XML {
+  open class Element {
+    open var name: Swift.String
+    open var text: Swift.String?
+    open var attributes: [Swift.String : Swift.String]
+    open var childElements: [SwiftyXMLParser.XML.Element]
+    open var lineNumberStart: Swift.Int
+    open var lineNumberEnd: Swift.Int
+    open var CDATA: Foundation.Data?
+    open var ignoreNamespaces: Swift.Bool
+    weak open var parentElement: SwiftyXMLParser.XML.Element?
+    public init(name: Swift.String, text: Swift.String? = nil, attributes: [Swift.String : Swift.String] = [:], childElements: [SwiftyXMLParser.XML.Element] = [], lineNumberStart: Swift.Int = -1, lineNumberEnd: Swift.Int = -1, CDATA: Foundation.Data? = nil, ignoreNamespaces: Swift.Bool = false)
+    @objc deinit
+  }
+}
+public enum XMLError : Swift.Error {
+  case failToEncodeString
+  case interruptedParseError(rawError: any Swift.Error)
+  case accessError(description: Swift.String)
+}
+public protocol XMLSubscriptType {
+}
+extension Swift.Int : SwiftyXMLParser.XMLSubscriptType {
+}
+extension Swift.String : SwiftyXMLParser.XMLSubscriptType {
+}
+infix operator ?= : DefaultPrecedence
+public func ?= <T>(lhs: inout T, rhs: T?)
+infix operator ?<< : DefaultPrecedence
+public func ?<< <T>(lhs: inout [T], rhs: T?)
+@_hasMissingDesignatedInitializers open class XML {
+  open class func parse(_ data: Foundation.Data, trimming manner: Foundation.CharacterSet? = nil, ignoreNamespaces: Swift.Bool = false) -> SwiftyXMLParser.XML.Accessor
+  open class func parse(_ str: Swift.String, trimming manner: Foundation.CharacterSet? = nil, ignoreNamespaces: Swift.Bool = false) throws -> SwiftyXMLParser.XML.Accessor
+  open class func document(_ accessor: SwiftyXMLParser.XML.Accessor, withDeclaration: Swift.Bool = true) throws -> Swift.String
+  @objc deinit
+}

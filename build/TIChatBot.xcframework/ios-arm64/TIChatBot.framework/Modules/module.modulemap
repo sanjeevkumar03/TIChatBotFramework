@@ -1,0 +1,11 @@
+framework module TIChatBot {
+  umbrella header "TIChatBot.h"
+  export *
+
+  module * { export * }
+}
+
+module TIChatBot.Swift {
+  header "TIChatBot-Swift.h"
+  requires objc
+}

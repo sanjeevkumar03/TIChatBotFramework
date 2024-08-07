@@ -1,0 +1,70 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - IQKeyboardManagerSwift (7.0.3)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+  - libidn (1.35)
+  - ProgressHUD (14.1.1)
+  - SDWebImage (5.18.12):
+    - SDWebImage/Core (= 5.18.12)
+  - SDWebImage/Core (5.18.12)
+  - SwiftyXMLParser (5.6.0)
+  - XMPPFramework (4.0.0):
+    - XMPPFramework/default (= 4.0.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (~> 7.0.0)
+  - ProgressHUD (~> 14.1.0)
+  - SDWebImage (~> 5.18.10)
+  - SwiftyXMLParser (~> 5.6.0)
+  - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, tag `4.1.0`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - IQKeyboardManagerSwift
+    - KissXML
+    - libidn
+    - ProgressHUD
+    - SDWebImage
+    - SwiftyXMLParser
+
+EXTERNAL SOURCES:
+  XMPPFramework:
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+    :tag: 4.1.0
+
+CHECKOUT OPTIONS:
+  XMPPFramework:
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+    :tag: 4.1.0
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  IQKeyboardManagerSwift: f9c5dc36cba16ddd2e51fa7d51c34a2e083029b5
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
+  SDWebImage: 2d6d229046fea284d62e36bfb8ebe8287dfc5b10
+  SwiftyXMLParser: 9b98995235961881322015ebe38d1f3d7c953bd7
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+
+PODFILE CHECKSUM: 3623efe5aaa154139f25fc639d5d022309762124
+
+COCOAPODS: 1.15.2

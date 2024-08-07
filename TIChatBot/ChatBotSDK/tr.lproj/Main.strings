@@ -1,0 +1,150 @@
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "0a2-8C-98D"; */
+"0a2-8C-98D.normalTitle" = "YES";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "0hW-p8-g9G"; */
+"0hW-p8-g9G.normalTitle" = "Cancel";
+
+/* Class = "UITextView"; text = "Please type here"; ObjectID = "2CO-b9-LK7"; */
+"2CO-b9-LK7.text" = "Please type here";
+
+/* Class = "UILabel"; text = "Bot Name"; ObjectID = "7u2-8l-F3N"; */
+"7u2-8l-F3N.text" = "Bot Name";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "8KX-ug-9qx"; */
+"8KX-ug-9qx.normalTitle" = "NO";
+
+/* Class = "UILabel"; text = "Additional feedback"; ObjectID = "8dp-1z-Fon"; */
+"8dp-1z-Fon.text" = "Additional feedback";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9Ob-Mq-0yp"; */
+"9Ob-Mq-0yp.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Skip Feedback"; ObjectID = "DfL-kr-DFP"; */
+"DfL-kr-DFP.normalTitle" = "Skip Feedback";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GTr-6b-6bd"; */
+"GTr-6b-6bd.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GjW-4k-Zh7"; */
+"GjW-4k-Zh7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "More Options"; ObjectID = "HLT-Gm-IGq"; */
+"HLT-Gm-IGq.text" = "More Options";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "I16-JM-hx5"; */
+"I16-JM-hx5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "LU6-09-xCZ"; */
+"LU6-09-xCZ.text" = "Title";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "LkG-gs-Y1q"; */
+"LkG-gs-Y1q.text" = "Select Language";
+
+/* Class = "UILabel"; text = "Queued Messages"; ObjectID = "MMY-EG-ZXH"; */
+"MMY-EG-ZXH.text" = "Queued Messages";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "ODY-tW-MT3"; */
+"ODY-tW-MT3.normalTitle" = "Close";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Opq-Go-JWp"; */
+"Opq-Go-JWp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QL0-Z3-REe"; */
+"QL0-Z3-REe.text" = "Label";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "QPP-MA-kMw"; */
+"QPP-MA-kMw.text" = "English";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RIv-aE-Jzs"; */
+"RIv-aE-Jzs.text" = "Label";
+
+/* Class = "UILabel"; text = "0/250"; ObjectID = "SVh-S8-rNq"; */
+"SVh-S8-rNq.text" = "0/250";
+
+/* Class = "UILabel"; text = "Send chat transcript to your email address."; ObjectID = "SsF-vX-xNV"; */
+"SsF-vX-xNV.text" = "Send chat transcript to your email address.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "T2n-th-RuX"; */
+"T2n-th-RuX.text" = "Title";
+
+/* Class = "UILabel"; text = "Chat Transcript"; ObjectID = "TXd-uR-gBx"; */
+"TXd-uR-gBx.text" = "Chat Transcript";
+
+/* Class = "UILabel"; text = "0/250"; ObjectID = "WwZ-cf-4zY"; */
+"WwZ-cf-4zY.text" = "0/250";
+
+/* Class = "UILabel"; text = "Did we resolve your issue?"; ObjectID = "YrQ-oz-5yh"; */
+"YrQ-oz-5yh.text" = "Did we resolve your issue?";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Z55-oh-wOe"; */
+"Z55-oh-wOe.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z56-wv-hVZ"; */
+"Z56-wv-hVZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "b5U-Te-glb"; */
+"b5U-Te-glb.text" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Skip feedback"; ObjectID = "bGh-jC-LiB"; */
+"bGh-jC-LiB.normalTitle" = "Skip feedback";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "bWe-sz-yJZ"; */
+"bWe-sz-yJZ.normalTitle" = "Submit";
+
+/* Class = "UITextField"; placeholder = "Please Enter Email"; ObjectID = "dcE-ff-iyY"; */
+"dcE-ff-iyY.placeholder" = "Please Enter Email";
+
+/* Class = "UILabel"; text = "Thanks for your feedback!"; ObjectID = "e8q-lb-Lc7"; */
+"e8q-lb-Lc7.text" = "Thanks for your feedback!";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "fr7-7Q-BU2"; */
+"fr7-7Q-BU2.text" = "Feedback";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gVB-VS-jf2"; */
+"gVB-VS-jf2.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hQ5-fd-bMr"; */
+"hQ5-fd-bMr.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jd0-Nh-cIa"; */
+"jd0-Nh-cIa.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ju7-A8-MR3"; */
+"ju7-A8-MR3.text" = "Label";
+
+/* Class = "UILabel"; text = "What went well?"; ObjectID = "lJw-4v-8BP"; */
+"lJw-4v-8BP.text" = "What went well?";
+
+/* Class = "UITextView"; text = "TextCard"; ObjectID = "lcg-mK-e3L"; */
+"lcg-mK-e3L.text" = "TextCard";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "lml-rv-Qlw"; */
+"lml-rv-Qlw.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mTu-Op-LOS"; */
+"mTu-Op-LOS.text" = "Label";
+
+/* Class = "UILabel"; text = "Select Channel"; ObjectID = "npH-fI-EdY"; */
+"npH-fI-EdY.text" = "Select Channel";
+
+/* Class = "UIButton"; configuration.title = "Confirm (0)"; ObjectID = "oha-ED-cbU"; */
+"oha-ED-cbU.configuration.title" = "Confirm (0)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oha-ED-cbU"; */
+"oha-ED-cbU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "pb2-Qh-adf"; */
+"pb2-Qh-adf.text" = "Feedback";
+
+/* Class = "UILabel"; text = "Additional feedback"; ObjectID = "vKu-zJ-xhI"; */
+"vKu-zJ-xhI.text" = "Additional feedback";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vmx-H6-i45"; */
+"vmx-H6-i45.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Regarding the TELUS Virtual Assistant that just helped you, how would you rate its performance?"; ObjectID = "x22-ag-xnL"; */
+"x22-ag-xnL.text" = "Regarding the TELUS Virtual Assistant that just helped you, how would you rate its performance?";
+
+/* Class = "UILabel"; text = "Mobile"; ObjectID = "zUx-Jr-DM9"; */
+"zUx-Jr-DM9.text" = "Mobile";

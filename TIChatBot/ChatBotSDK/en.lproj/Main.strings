@@ -1,0 +1,105 @@
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "0a2-8C-98D"; */
+"0a2-8C-98D.normalTitle" = "YES";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "0hW-p8-g9G"; */
+"0hW-p8-g9G.normalTitle" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "2Na-uz-uso"; */
+"2Na-uz-uso.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "1@34567b"; ObjectID = "2Na-uz-uso"; */
+"2Na-uz-uso.text" = "1@34567b";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "8KX-ug-9qx"; */
+"8KX-ug-9qx.normalTitle" = "NO";
+
+/* Class = "UILabel"; text = "Additional feedback"; ObjectID = "8dp-1z-Fon"; */
+"8dp-1z-Fon.text" = "Additional feedback";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "CNa-dq-BGX"; */
+"CNa-dq-BGX.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Skip Feedback"; ObjectID = "DfL-kr-DFP"; */
+"DfL-kr-DFP.normalTitle" = "Skip Feedback";
+
+/* Class = "UIButton"; normalTitle = "Add Additional Feedback"; ObjectID = "EdI-Wt-Hef"; */
+"EdI-Wt-Hef.normalTitle" = "Add Additional Feedback";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "Ic6-fc-W0W"; */
+"Ic6-fc-W0W.normalTitle" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Additional Feedback"; ObjectID = "Jk3-SE-tre"; */
+"Jk3-SE-tre.normalTitle" = "Additional Feedback";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "LkG-gs-Y1q"; */
+"LkG-gs-Y1q.text" = "Select Language";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "ODY-tW-MT3"; */
+"ODY-tW-MT3.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "QPP-MA-kMw"; */
+"QPP-MA-kMw.text" = "English";
+
+/* Class = "UIButton"; normalTitle = "Setting"; ObjectID = "QyU-bJ-gIK"; */
+"QyU-bJ-gIK.normalTitle" = "Setting";
+
+/* Class = "UILabel"; text = "Send chat transcript to your email address."; ObjectID = "SsF-vX-xNV"; */
+"SsF-vX-xNV.text" = "Send chat transcript to your email address.";
+
+/* Class = "UILabel"; text = "Chat Transcript"; ObjectID = "TXd-uR-gBx"; */
+"TXd-uR-gBx.text" = "Chat Transcript";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "W7L-T8-6Dz"; */
+"W7L-T8-6Dz.text" = "Login";
+
+/* Class = "UILabel"; text = "Did we resolve your issue?"; ObjectID = "YrQ-oz-5yh"; */
+"YrQ-oz-5yh.text" = "Did we resolve your issue?";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Z55-oh-wOe"; */
+"Z55-oh-wOe.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Skip feedback"; ObjectID = "bGh-jC-LiB"; */
+"bGh-jC-LiB.normalTitle" = "Skip feedback";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "bWe-sz-yJZ"; */
+"bWe-sz-yJZ.normalTitle" = "Submit";
+
+/* Class = "UITextField"; placeholder = "Please Enter Email"; ObjectID = "dcE-ff-iyY"; */
+"dcE-ff-iyY.placeholder" = "Please Enter Email";
+
+/* Class = "UILabel"; text = "Thanks for your feedback!"; ObjectID = "e8q-lb-Lc7"; */
+"e8q-lb-Lc7.text" = "Thanks for your feedback!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hQ5-fd-bMr"; */
+"hQ5-fd-bMr.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ih9-Jd-qkM"; */
+"ih9-Jd-qkM.text" = "Label";
+
+/* Class = "UILabel"; text = "What went well?"; ObjectID = "lJw-4v-8BP"; */
+"lJw-4v-8BP.text" = "What went well?";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "lml-rv-Qlw"; */
+"lml-rv-Qlw.normalTitle" = "Save";
+
+/* Class = "UITextField"; placeholder = "UserJID"; ObjectID = "lvH-RB-ep1"; */
+"lvH-RB-ep1.placeholder" = "UserJID";
+
+/* Class = "UITextField"; text = "abcd@mobility.telusinternational.com"; ObjectID = "lvH-RB-ep1"; */
+"lvH-RB-ep1.text" = "abcd@mobility.telusinternational.com";
+
+/* Class = "UILabel"; text = "Select Channel"; ObjectID = "npH-fI-EdY"; */
+"npH-fI-EdY.text" = "Select Channel";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "t8r-AK-mkg"; */
+"t8r-AK-mkg.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Additional feedback"; ObjectID = "vKu-zJ-xhI"; */
+"vKu-zJ-xhI.text" = "Additional feedback";
+
+/* Class = "UILabel"; text = "Regarding the TELUS Virtual Assistant that just helped you, how would you rate its performance?"; ObjectID = "x22-ag-xnL"; */
+"x22-ag-xnL.text" = "Regarding the TELUS Virtual Assistant that just helped you, how would you rate its performance?";
+
+/* Class = "UILabel"; text = "Mobile"; ObjectID = "zUx-Jr-DM9"; */
+"zUx-Jr-DM9.text" = "Mobile";

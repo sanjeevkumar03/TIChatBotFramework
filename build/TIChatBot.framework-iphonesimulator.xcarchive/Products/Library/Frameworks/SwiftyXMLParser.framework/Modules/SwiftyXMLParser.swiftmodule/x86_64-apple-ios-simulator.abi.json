@@ -1,0 +1,4606 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XMLError",
+        "printedName": "XMLError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failToEncodeString",
+            "printedName": "failToEncodeString",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyXMLParser.XMLError.Type) -> SwiftyXMLParser.XMLError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XMLError",
+                    "printedName": "SwiftyXMLParser.XMLError",
+                    "usr": "s:15SwiftyXMLParser8XMLErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyXMLParser.XMLError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLError",
+                        "printedName": "SwiftyXMLParser.XMLError",
+                        "usr": "s:15SwiftyXMLParser8XMLErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15SwiftyXMLParser8XMLErrorO18failToEncodeStringyA2CmF",
+            "mangledName": "$s15SwiftyXMLParser8XMLErrorO18failToEncodeStringyA2CmF",
+            "moduleName": "SwiftyXMLParser"
+          },
+          {
+            "kind": "Var",
+            "name": "interruptedParseError",
+            "printedName": "interruptedParseError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyXMLParser.XMLError.Type) -> (Swift.Error) -> SwiftyXMLParser.XMLError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> SwiftyXMLParser.XMLError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLError",
+                        "printedName": "SwiftyXMLParser.XMLError",
+                        "usr": "s:15SwiftyXMLParser8XMLErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(rawError: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyXMLParser.XMLError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLError",
+                        "printedName": "SwiftyXMLParser.XMLError",
+                        "usr": "s:15SwiftyXMLParser8XMLErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15SwiftyXMLParser8XMLErrorO21interruptedParseErroryACs0F0_p_tcACmF",
+            "mangledName": "$s15SwiftyXMLParser8XMLErrorO21interruptedParseErroryACs0F0_p_tcACmF",
+            "moduleName": "SwiftyXMLParser"
+          },
+          {
+            "kind": "Var",
+            "name": "accessError",
+            "printedName": "accessError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyXMLParser.XMLError.Type) -> (Swift.String) -> SwiftyXMLParser.XMLError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SwiftyXMLParser.XMLError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLError",
+                        "printedName": "SwiftyXMLParser.XMLError",
+                        "usr": "s:15SwiftyXMLParser8XMLErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyXMLParser.XMLError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLError",
+                        "printedName": "SwiftyXMLParser.XMLError",
+                        "usr": "s:15SwiftyXMLParser8XMLErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15SwiftyXMLParser8XMLErrorO11accessErroryACSS_tcACmF",
+            "mangledName": "$s15SwiftyXMLParser8XMLErrorO11accessErroryACSS_tcACmF",
+            "moduleName": "SwiftyXMLParser"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15SwiftyXMLParser8XMLErrorO",
+        "mangledName": "$s15SwiftyXMLParser8XMLErrorO",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XMLSubscriptType",
+        "printedName": "XMLSubscriptType",
+        "declKind": "Protocol",
+        "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP",
+        "mangledName": "$s15SwiftyXMLParser16XMLSubscriptTypeP",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "?=",
+        "printedName": "?=",
+        "declKind": "InfixOperator",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "?=",
+        "printedName": "?=(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0",
+            "paramValueOwnership": "InOut"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15SwiftyXMLParser2qeoiyyxz_xSgtlF",
+        "mangledName": "$s15SwiftyXMLParser2qeoiyyxz_xSgtlF",
+        "moduleName": "SwiftyXMLParser",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "?<<",
+        "printedName": "?<<",
+        "declKind": "InfixOperator",
+        "moduleName": "SwiftyXMLParser",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "?<<",
+        "printedName": "?<<(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[τ_0_0]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "paramValueOwnership": "InOut",
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15SwiftyXMLParser3qlloiyySayxGz_xSgtlF",
+        "mangledName": "$s15SwiftyXMLParser3qlloiyySayxGz_xSgtlF",
+        "moduleName": "SwiftyXMLParser",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XML",
+        "printedName": "XML",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "parse",
+            "printedName": "parse(_:trimming:ignoreNamespaces:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Accessor",
+                "printedName": "SwiftyXMLParser.XML.Accessor",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.CharacterSet?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CharacterSet",
+                    "printedName": "Foundation.CharacterSet",
+                    "usr": "s:10Foundation12CharacterSetV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SwiftyXMLParser3XMLC5parse_8trimming16ignoreNamespacesAC8AccessorO10Foundation4DataV_AI12CharacterSetVSgSbtFZ",
+            "mangledName": "$s15SwiftyXMLParser3XMLC5parse_8trimming16ignoreNamespacesAC8AccessorO10Foundation4DataV_AI12CharacterSetVSgSbtFZ",
+            "moduleName": "SwiftyXMLParser",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parse",
+            "printedName": "parse(_:trimming:ignoreNamespaces:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Accessor",
+                "printedName": "SwiftyXMLParser.XML.Accessor",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.CharacterSet?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CharacterSet",
+                    "printedName": "Foundation.CharacterSet",
+                    "usr": "s:10Foundation12CharacterSetV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SwiftyXMLParser3XMLC5parse_8trimming16ignoreNamespacesAC8AccessorOSS_10Foundation12CharacterSetVSgSbtKFZ",
+            "mangledName": "$s15SwiftyXMLParser3XMLC5parse_8trimming16ignoreNamespacesAC8AccessorOSS_10Foundation12CharacterSetVSgSbtKFZ",
+            "moduleName": "SwiftyXMLParser",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "document",
+            "printedName": "document(_:withDeclaration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Accessor",
+                "printedName": "SwiftyXMLParser.XML.Accessor",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SwiftyXMLParser3XMLC8document_15withDeclarationSSAC8AccessorO_SbtKFZ",
+            "mangledName": "$s15SwiftyXMLParser3XMLC8document_15withDeclarationSSAC8AccessorO_SbtKFZ",
+            "moduleName": "SwiftyXMLParser",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Accessor",
+            "printedName": "Accessor",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "singleElement",
+                "printedName": "singleElement",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyXMLParser.XML.Accessor.Type) -> (SwiftyXMLParser.XML.Element) -> SwiftyXMLParser.XML.Accessor",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SwiftyXMLParser.XML.Element) -> SwiftyXMLParser.XML.Accessor",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyXMLParser.XML.Accessor.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO13singleElementyAeC0F0CcAEmF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO13singleElementyAeC0F0CcAEmF",
+                "moduleName": "SwiftyXMLParser"
+              },
+              {
+                "kind": "Var",
+                "name": "sequence",
+                "printedName": "sequence",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyXMLParser.XML.Accessor.Type) -> ([SwiftyXMLParser.XML.Element]) -> SwiftyXMLParser.XML.Accessor",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([SwiftyXMLParser.XML.Element]) -> SwiftyXMLParser.XML.Accessor",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[SwiftyXMLParser.XML.Element]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Element",
+                                "printedName": "SwiftyXMLParser.XML.Element",
+                                "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyXMLParser.XML.Accessor.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO8sequenceyAESayAC7ElementCGcAEmF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO8sequenceyAESayAC7ElementCGcAEmF",
+                "moduleName": "SwiftyXMLParser"
+              },
+              {
+                "kind": "Var",
+                "name": "failure",
+                "printedName": "failure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyXMLParser.XML.Accessor.Type) -> (Swift.Error) -> SwiftyXMLParser.XML.Accessor",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error) -> SwiftyXMLParser.XML.Accessor",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyXMLParser.XML.Accessor.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO7failureyAEs5Error_pcAEmF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO7failureyAEs5Error_pcAEmF",
+                "moduleName": "SwiftyXMLParser"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Element",
+                    "printedName": "SwiftyXMLParser.XML.Element",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAeC7ElementCcfc",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAeC7ElementCcfc",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftyXMLParser.XML.Element]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Element",
+                        "printedName": "SwiftyXMLParser.XML.Element",
+                        "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAESayAC7ElementCGcfc",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAESayAC7ElementCGcfc",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAEs5Error_pcfc",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAEs5Error_pcfc",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Subscript",
+                "name": "subscript",
+                "printedName": "subscript(dynamicMember:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Subscript",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO13dynamicMemberAESS_tcip",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO13dynamicMemberAESS_tcip",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO13dynamicMemberAESS_tcig",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO13dynamicMemberAESS_tcig",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Subscript",
+                "name": "subscript",
+                "printedName": "subscript(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftyXMLParser.XMLSubscriptType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLSubscriptType",
+                        "printedName": "SwiftyXMLParser.XMLSubscriptType",
+                        "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Subscript",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAESayAA16XMLSubscriptType_pGcip",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAESayAA16XMLSubscriptType_pGcip",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftyXMLParser.XMLSubscriptType]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "XMLSubscriptType",
+                            "printedName": "SwiftyXMLParser.XMLSubscriptType",
+                            "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAESayAA16XMLSubscriptType_pGcig",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAESayAA16XMLSubscriptType_pGcig",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Subscript",
+                "name": "subscript",
+                "printedName": "subscript(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftyXMLParser.XMLSubscriptType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XMLSubscriptType",
+                        "printedName": "SwiftyXMLParser.XMLSubscriptType",
+                        "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Subscript",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAeA16XMLSubscriptType_pd_tcip",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAeA16XMLSubscriptType_pd_tcip",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftyXMLParser.XMLSubscriptType]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "XMLSubscriptType",
+                            "printedName": "SwiftyXMLParser.XMLSubscriptType",
+                            "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorOyAeA16XMLSubscriptType_pd_tcig",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorOyAeA16XMLSubscriptType_pd_tcig",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4nameSSSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4nameSSSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4nameSSSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4nameSSSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "text",
+                "printedName": "text",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4textSSSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4textSSSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4textSSSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4textSSSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4textSSSgvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4textSSSgvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4textSSSgvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4textSSSgvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "bool",
+                "printedName": "bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4boolSbSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4boolSbSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4boolSbSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4boolSbSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "url",
+                "printedName": "url",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3url10Foundation3URLVSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3url10Foundation3URLVSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3url10Foundation3URLVSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3url10Foundation3URLVSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "int",
+                "printedName": "int",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3intSiSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3intSiSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3intSiSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3intSiSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "double",
+                "printedName": "double",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO6doubleSdSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO6doubleSdSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO6doubleSdSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO6doubleSdSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "attributes",
+                "printedName": "attributes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO10attributesSDyS2SGvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "all",
+                "printedName": "all",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[SwiftyXMLParser.XML.Element]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftyXMLParser.XML.Element]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3allSayAC7ElementCGSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3allSayAC7ElementCGSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[SwiftyXMLParser.XML.Element]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[SwiftyXMLParser.XML.Element]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Element",
+                                "printedName": "SwiftyXMLParser.XML.Element",
+                                "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3allSayAC7ElementCGSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3allSayAC7ElementCGSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "names",
+                "printedName": "names",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO5namesSaySSGSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO5namesSaySSGSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO5namesSaySSGSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO5namesSaySSGSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO5errors5Error_pSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO5errors5Error_pSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO5errors5Error_pSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO5errors5Error_pSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "element",
+                "printedName": "element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftyXMLParser.XML.Element?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Element",
+                        "printedName": "SwiftyXMLParser.XML.Element",
+                        "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO7elementAC7ElementCSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO7elementAC7ElementCSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftyXMLParser.XML.Element?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO7elementAC7ElementCSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO7elementAC7ElementCSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "last",
+                "printedName": "last",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4lastAEvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4lastAEvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO4lastAEvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO4lastAEvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "first",
+                "printedName": "first",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO5firstAEvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO5firstAEvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO5firstAEvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO5firstAEvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "map",
+                "printedName": "map(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyXMLParser.XML.Accessor) -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO3mapySayxGxAEXElF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO3mapySayxGxAEXElF",
+                "moduleName": "SwiftyXMLParser",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "mapWithSqueezeNil",
+                "printedName": "mapWithSqueezeNil(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyXMLParser.XML.Accessor) -> τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "τ_0_0?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO17mapWithSqueezeNilySayxGxSgAEXElF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO17mapWithSqueezeNilySayxGxSgAEXElF",
+                "moduleName": "SwiftyXMLParser",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "AccessControl",
+                  "Available"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "append",
+                "printedName": "append(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Element",
+                    "printedName": "SwiftyXMLParser.XML.Element",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO6appendyyAC7ElementCF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO6appendyyAC7ElementCF",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "makeIterator",
+                "printedName": "makeIterator()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyIterator",
+                    "printedName": "Swift.AnyIterator<SwiftyXMLParser.XML.Accessor>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      }
+                    ],
+                    "usr": "s:s11AnyIteratorV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO12makeIterators03AnyF0VyAEGyF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO12makeIterators03AnyF0VyAEGyF",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC8AccessorO11descriptionSSvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO11descriptionSSvp",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO11descriptionSSvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO11descriptionSSvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO",
+            "mangledName": "$s15SwiftyXMLParser3XMLC8AccessorO",
+            "moduleName": "SwiftyXMLParser",
+            "declAttributes": [
+              "AccessControl",
+              "DynamicMemberLookup",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sequence",
+                "printedName": "Sequence",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Element",
+                    "printedName": "Element",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accessor",
+                        "printedName": "SwiftyXMLParser.XML.Accessor",
+                        "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Iterator",
+                    "printedName": "Iterator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyIterator",
+                        "printedName": "Swift.AnyIterator<SwiftyXMLParser.XML.Accessor>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Accessor",
+                            "printedName": "SwiftyXMLParser.XML.Accessor",
+                            "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                          }
+                        ],
+                        "usr": "s:s11AnyIteratorV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:ST",
+                "mangledName": "$sST"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Converter",
+            "printedName": "Converter",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Converter",
+                    "printedName": "SwiftyXMLParser.XML.Converter",
+                    "usr": "s:15SwiftyXMLParser3XMLC9ConverterC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Accessor",
+                    "printedName": "SwiftyXMLParser.XML.Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC8AccessorO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15SwiftyXMLParser3XMLC9ConverterCyAeC8AccessorOcfc",
+                "mangledName": "$s15SwiftyXMLParser3XMLC9ConverterCyAeC8AccessorOcfc",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "makeDocument",
+                "printedName": "makeDocument(withDeclaration:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15SwiftyXMLParser3XMLC9ConverterC12makeDocument15withDeclarationSSSb_tKF",
+                "mangledName": "$s15SwiftyXMLParser3XMLC9ConverterC12makeDocument15withDeclarationSSSb_tKF",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:15SwiftyXMLParser3XMLC9ConverterC",
+            "mangledName": "$s15SwiftyXMLParser3XMLC9ConverterC",
+            "moduleName": "SwiftyXMLParser",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Element",
+            "printedName": "Element",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC4nameSSvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4nameSSvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC4nameSSvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4nameSSvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC4nameSSvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4nameSSvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC4nameSSvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4nameSSvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "text",
+                "printedName": "text",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC4textSSSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4textSSSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC4textSSSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4textSSSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC4textSSSgvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4textSSSgvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC4textSSSgvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4textSSSgvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "attributes",
+                "printedName": "attributes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC10attributesSDyS2SGvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "childElements",
+                "printedName": "childElements",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftyXMLParser.XML.Element]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Element",
+                        "printedName": "SwiftyXMLParser.XML.Element",
+                        "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftyXMLParser.XML.Element]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftyXMLParser.XML.Element]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13childElementsSayAEGvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "lineNumberStart",
+                "printedName": "lineNumberStart",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC15lineNumberStartSivM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "lineNumberEnd",
+                "printedName": "lineNumberEnd",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC13lineNumberEndSivM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "CDATA",
+                "printedName": "CDATA",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC5CDATA10Foundation4DataVSgvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "ignoreNamespaces",
+                "printedName": "ignoreNamespaces",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC16ignoreNamespacesSbvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "parentElement",
+                "printedName": "parentElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeakStorage",
+                    "printedName": "SwiftyXMLParser.XML.Element?"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvp",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvp",
+                "moduleName": "SwiftyXMLParser",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "ReferenceOwnership",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "ownership": 1,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftyXMLParser.XML.Element?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvg",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvg",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftyXMLParser.XML.Element?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Element",
+                            "printedName": "SwiftyXMLParser.XML.Element",
+                            "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvs",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvs",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvM",
+                    "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC06parentD0AESgvM",
+                    "moduleName": "SwiftyXMLParser",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(name:text:attributes:childElements:lineNumberStart:lineNumberEnd:CDATA:ignoreNamespaces:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Element",
+                    "printedName": "SwiftyXMLParser.XML.Element",
+                    "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftyXMLParser.XML.Element]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Element",
+                        "printedName": "SwiftyXMLParser.XML.Element",
+                        "usr": "s:15SwiftyXMLParser3XMLC7ElementC"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15SwiftyXMLParser3XMLC7ElementC4name4text10attributes13childElements15lineNumberStart0jK3End5CDATA16ignoreNamespacesAESS_SSSgSDyS2SGSayAEGS2i10Foundation4DataVSgSbtcfc",
+                "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC4name4text10attributes13childElements15lineNumberStart0jK3End5CDATA16ignoreNamespacesAESS_SSSgSDyS2SGSayAEGS2i10Foundation4DataVSgSbtcfc",
+                "moduleName": "SwiftyXMLParser",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:15SwiftyXMLParser3XMLC7ElementC",
+            "mangledName": "$s15SwiftyXMLParser3XMLC7ElementC",
+            "moduleName": "SwiftyXMLParser",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15SwiftyXMLParser3XMLC",
+        "mangledName": "$s15SwiftyXMLParser3XMLC",
+        "moduleName": "SwiftyXMLParser",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Int",
+        "printedName": "Int",
+        "declKind": "Struct",
+        "usr": "s:Si",
+        "mangledName": "$sSi",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.Int.Words",
+                    "usr": "s:Si5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "XMLSubscriptType",
+            "printedName": "XMLSubscriptType",
+            "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP",
+            "mangledName": "$s15SwiftyXMLParser16XMLSubscriptTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Int.SIMD2Storage",
+                    "usr": "s:Si12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Int.SIMD4Storage",
+                    "usr": "s:Si12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Int.SIMD8Storage",
+                    "usr": "s:Si12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Int.SIMD16Storage",
+                    "usr": "s:Si13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Int.SIMD32Storage",
+                    "usr": "s:Si13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Int.SIMD64Storage",
+                    "usr": "s:Si13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "XMLSubscriptType",
+            "printedName": "XMLSubscriptType",
+            "usr": "s:15SwiftyXMLParser16XMLSubscriptTypeP",
+            "mangledName": "$s15SwiftyXMLParser16XMLSubscriptTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2895,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3107,
+      "length": 31,
+      "value": "\"cannot access Index: \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3137,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4104,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4327,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4334,
+      "length": 3,
+      "value": "\" not found.\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4444,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4502,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4746,
+      "length": 52,
+      "value": "\"cannot access \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4767,
+      "length": 1,
+      "value": "\", because of multiple elements\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 5783,
+      "length": 27,
+      "value": "\"cannot access \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 5809,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 6859,
+      "length": 27,
+      "value": "\"cannot access \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 6885,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 8048,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 10971,
+      "length": 28,
+      "value": "\"cannot access last element\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 11601,
+      "length": 29,
+      "value": "\"cannot access first element\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "Array",
+      "offset": 13416,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13620,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13835,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14185,
+      "length": 4,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14230,
+      "length": 4,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14383,
+      "length": 4,
+      "value": "\"[ \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14421,
+      "length": 6,
+      "value": "\",\n \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14431,
+      "length": 4,
+      "value": "\" ]\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14497,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14506,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 14795,
+      "length": 5,
+      "value": "\" > \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15858,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16015,
+      "length": 44,
+      "value": "\"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16062,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16312,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16713,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16718,
+      "length": 1,
+      "value": "\"=\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16725,
+      "length": 1,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16749,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16812,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 16921,
+      "length": 35,
+      "value": "\"XML.Parser.AbstructedDocumentRoot\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17036,
+      "length": 75,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17045,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17063,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17068,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17072,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17080,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17088,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17100,
+      "length": 2,
+      "value": "\"<\/\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 17109,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "Array",
+      "offset": 17249,
+      "length": 124,
+      "value": "[[\"&\", \"&amp;\"], [\"<\", \"&lt;\"], [\">\", \"&gt;\"]]"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17484,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Accessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17497,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Element.swift",
+      "kind": "Dictionary",
+      "offset": 1714,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Element.swift",
+      "kind": "Array",
+      "offset": 1758,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Element.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1797,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Element.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1834,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Element.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1907,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Parser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2045,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Parser.swift",
+      "kind": "StringLiteral",
+      "offset": 2194,
+      "length": 35,
+      "value": "\"XML.Parser.AbstructedDocumentRoot\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Parser.swift",
+      "kind": "StringLiteral",
+      "offset": 3367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/Parser.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 6,
+      "value": "\"SwiftyXMLParser.Parser\""
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/XML.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3274,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/XML.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xavient\/Desktop\/Framework POC\/TIChatBot\/Pods\/SwiftyXMLParser\/SwiftyXMLParser\/XML.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4430,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

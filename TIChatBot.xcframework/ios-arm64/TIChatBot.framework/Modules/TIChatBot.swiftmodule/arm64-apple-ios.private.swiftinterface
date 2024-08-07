@@ -1,0 +1,220 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TIChatBot
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import CommonCrypto
+import DeveloperToolsSupport
+import Foundation
+import IQKeyboardManagerSwift
+import ImageIO
+import JavaScriptCore
+import MapKit
+import Photos
+import ProgressHUD
+import SDWebImage
+import Speech
+import Swift
+import SwiftUI
+import SwiftyXMLParser
+@_exported import TIChatBot
+import UIKit
+import WebKit
+import XMPPFramework
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Swift.String {
+  public func convertHtmlToAttributedStringWithCSS(font: UIKit.UIFont?, csscolor: Swift.String, lineheight: Swift.Int, csstextalign: Swift.String) -> Foundation.NSAttributedString?
+}
+extension Swift.String {
+  public func trimHTMLTags() -> Swift.String?
+}
+extension Swift.String {
+  public var withoutHtml: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) final public class SwiftSignatureView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any TIChatBot.SwiftSignatureDelegate)?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var strokeWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var strokeColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var signatureBackgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var doesContainSignature: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override final public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) final public func clear()
+  @_Concurrency.MainActor(unsafe) final public func getSignature(scale: CoreFoundation.CGFloat = 1) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) final public func getCroppedSignature(scale: CoreFoundation.CGFloat = 1) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) final public func getPDFSignature() -> Foundation.Data
+  @objc deinit
+}
+@objc public protocol SwiftSignatureDelegate {
+  @objc func didStart()
+  @objc @available(*, unavailable, renamed: "didStart()")
+  func startedDrawing()
+  @objc func didFinish()
+  @objc @available(*, unavailable, renamed: "didFinish()")
+  func finishedDrawing()
+}
+@objc public protocol TIVirtualAssistantDelegate {
+  @objc func didTapCloseChatbot()
+  @objc func didTapMinimizeChatbot()
+  @objc func didTapMaximizeChatbot()
+  @objc optional func initiateNativeCallTransfer(data: [Swift.String : Any]?)
+  @objc optional func oldSessionNotClaimedStartNewConversationWithNewJID()
+  @objc optional func chatClosedByAgent()
+}
+public class TIVirtualAssistant {
+  public init()
+  public var delegate: (any TIChatBot.TIVirtualAssistantDelegate)?
+  public func initWith(botId: Swift.String, environment: TIChatBot.BotEnv? = .mqa, customData: TIChatBot.VACustomData? = nil, isChatTool: Swift.Bool = false, jid: Swift.String = "", query: Swift.String = "", isStartNewSession: Swift.Bool = false) -> UIKit.UIViewController
+  @objc deinit
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) public func loadGif(name: Swift.String)
+  @available(iOS 9.0, *)
+  @_Concurrency.MainActor(unsafe) public func loadGif(asset: Swift.String)
+}
+extension UIKit.UIImage {
+  public class func gif(data: Foundation.Data) -> UIKit.UIImage?
+  public class func gif(url: Swift.String) -> UIKit.UIImage?
+  public class func gif(name: Swift.String) -> UIKit.UIImage?
+  @available(iOS 9.0, *)
+  public class func gif(asset: Swift.String) -> UIKit.UIImage?
+}
+extension Foundation.URL {
+  public var queryParameters: [Swift.String : Swift.String]? {
+    get
+  }
+}
+public struct Sender {
+  public let id: Swift.String
+  public let displayName: Swift.String
+  public init(id: Swift.String, displayName: Swift.String)
+}
+extension TIChatBot.Sender : Swift.Equatable {
+  public static func == (left: TIChatBot.Sender, right: TIChatBot.Sender) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers open class CryptoJS {
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AES : TIChatBot.CryptoJS {
+    open func encrypt(_ message: Swift.String, password: Swift.String, options: Any? = nil) -> Swift.String
+    open func decrypt(_ message: Swift.String, password: Swift.String, options: Any? = nil) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class TripleDES : TIChatBot.CryptoJS {
+    open func encrypt(_ message: Swift.String, password: Swift.String) -> Swift.String
+    open func decrypt(_ message: Swift.String, password: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class DES : TIChatBot.CryptoJS {
+    open func encrypt(_ message: Swift.String, password: Swift.String) -> Swift.String
+    open func decrypt(_ message: Swift.String, password: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class MD5 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SHA1 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SHA224 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SHA256 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SHA384 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SHA512 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SHA3 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String, outputLength: Swift.Int? = nil) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class RIPEMD160 : TIChatBot.CryptoJS {
+    open func hash(_ string: Swift.String, outputLength: Swift.Int? = nil) -> Swift.String
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class mode : TIChatBot.CryptoJS {
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class CFB : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class CTR : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class OFB : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ECB : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class pad : TIChatBot.CryptoJS {
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AnsiX923 : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class Iso97971 : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class Iso10126 : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ZeroPadding : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class NoPadding : TIChatBot.CryptoJS {
+      @objc deinit
+    }
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct VACustomData {
+  public init(language: Swift.String = "", userName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", tid: Swift.String? = "", displayName: Swift.String? = "", businessDomain: Swift.String? = "", brand: Swift.String? = "", productType: Swift.String? = "", extraData: [Swift.String : Any]? = [:], isGroupSSO: Swift.Bool = false, groupSssoJid: Swift.String = "", groupSsoToken: Swift.String = "")
+}
+public enum BotEnv : Swift.CaseIterable {
+  case mdev
+  case mqa
+  case stage
+  case tiiaProd, tiiaprod
+  case tvaProd, tvaprod
+  case kvaProd, kvaprod
+  case chatGPT
+  public static func == (a: TIChatBot.BotEnv, b: TIChatBot.BotEnv) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [TIChatBot.BotEnv]
+  public static var allCases: [TIChatBot.BotEnv] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension TIChatBot.BotEnv : Swift.Equatable {}
+extension TIChatBot.BotEnv : Swift.Hashable {}
